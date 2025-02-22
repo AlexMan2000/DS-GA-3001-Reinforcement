@@ -1,1 +1,10 @@
 .venv
+.DS_Store
+**/DS_Store
+**/node_modules/**
+**/dist/**
+**/build/**
+**/coverage/**
+**/logs/**
+**/temp/**
+**/cache/**
