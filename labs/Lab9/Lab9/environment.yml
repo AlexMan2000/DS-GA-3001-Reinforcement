@@ -1,0 +1,32 @@
+name: rl9
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - pytorch
+  - torchvision 
+  # - cudatoolkit=10.2
+  - pip
+  - pip:    
+    - reverb
+    - dm-reverb[tensorflow]  # Missing   (reberb)
+    - tensorflow-probability # missing
+    - wrapt # missing 
+    - dm-sonnet # missing
+    - graphs # missing
+    - trfl # missing 
+    - dm-acme
+    - dm-acme[reverb]
+    - dm-acme[tf]    
+    - dm-acme[envs]
+    # for visualizing
+    - ffmpeg
+    - gym
+    - imageio
+    - PILLOW 
+    - pyglet
+    - pyvirtualdisplay
+    - imageio-ffmpeg
